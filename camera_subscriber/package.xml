@@ -3,14 +3,15 @@
 <package format="3">
   <name>camera_subscriber</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="parallels@todo.todo">parallels</maintainer>
+  <description>Projekt zaliczeniowy przedmiot NIOSR</description>
+  <maintainer email="maciej.p.krupka@student.put.poznan.pl">parallels</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>cv_bridge</depend>
   <depend>python3-opencv</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>my_quaternion</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

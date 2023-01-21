@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'camera_node = camera_subscriber.camera_node:main',
+            'robot_control = camera_subscriber.robot_control:main',
+            'usb_imu = camera_subscriber.usb_imu:main'
         ],
     },
 )
