@@ -17,7 +17,7 @@ setup(
     maintainer_email='maciej.p.krupka@student.put.poznan.pl',
     description='Projekt zaliczeniowy przedmiot NIOSR',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    tests_require=['pytest','unittest', 'math'],
     entry_points={
         'console_scripts': [
             'camera_node = camera_subscriber.camera_node:main',
