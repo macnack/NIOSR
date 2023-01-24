@@ -4,7 +4,7 @@ package_name = 'camera_subscriber'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.1.0',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='parallels',
-    maintainer_email='parallels@todo.todo',
-    description='TODO: Package description',
+    maintainer='Maciej',
+    maintainer_email='maciej.p.krupka@student.put.poznan.pl',
+    description='Projekt zaliczeniowy przedmiot NIOSR',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
