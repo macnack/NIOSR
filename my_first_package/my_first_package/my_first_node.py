@@ -1,5 +1,5 @@
 def main():
-    print('Hi from my_first_package.')
+    print('Cześć to moj pierwszy pakiet ROS2. Projekt stanowi projekt zaliczeniowy przedmiot NIODSR')
 
 
 if __name__ == '__main__':
